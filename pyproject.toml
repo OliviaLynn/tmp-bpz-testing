@@ -44,7 +44,7 @@ write_to = "src/rail/bpz/_version.py"
 [tool.setuptools.package-data]
 "rail.examples.estimation.configs" = ["*.columns"]
 
-[tools.setuptools.packages.find]
+[tool.setuptools.packages.find]
 where = ["."]
 include = ["rail"]
 namespaces = true
